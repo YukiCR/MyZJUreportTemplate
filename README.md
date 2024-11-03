@@ -1,7 +1,7 @@
 ## MyZJUreportTemplate
 
-> See also: 
-> [ZJUreport](https://github.com/haochengxia/zjureport)
+> See also:    
+> [ZJUreport](https://github.com/haochengxia/zjureport)   
 > [UCAS_Latex_Template](https://github.com/jweihe/UCAS_Latex_Template)
 
 ### Intro
