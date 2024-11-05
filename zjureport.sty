@@ -151,3 +151,26 @@
 \maketitle
 }
 
+% ================ note definitioin ========================
+% add note through todonotes
+\RequirePackage{todonotes}
+% use this to comment all notes at once
+% \RequirePackage[disable]{todonotes}
+
+% a chortcut of note
+% use \reportnote{<text>} to add a note, 
+% use \reportnote[<color>]{<text>} to add note with another color
+\newcommand{\reportnote}[2][blue!10]{
+	\todo[size = \tiny, color=#1,  bordercolor=black!50!white]{
+		#2 
+	}
+}
+
+% if using pdflatex, try this
+% \usepackage{CJKutf8}
+% \newcommand{\reportnote}[2][blue!10]{
+% 	\todo[size = \scriptsize, color=#1,  bordercolor=black!50!white]{
+% 		\begin{CJK*}{UTF8}{gbsn} #2 \end{CJK*}
+% 	}
+% }
+% =============== end of note definition ==================
