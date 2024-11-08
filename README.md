@@ -10,6 +10,7 @@ A simple $\LaTeX$ templete for reports of ZJU, developed from [ZJUreport](https:
 + Use `enumitem` package instead of `enumerate` for better flexibility
 + Use `subfig` package instead of `subfigure` package, since the latter is a relatively old package
 + Use `AutoFakeBold` and `AutoFakeSlant` for better bold and italic font support
++ Fix page numbering to start form the main body
 + Add a note method with `todonotes` package, add a note with
     ```LATEX
     \reportnote[<color>]{<text>} % or
